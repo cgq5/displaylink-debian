@@ -11,10 +11,10 @@
 # License: GPLv3
 
 # define the version to get as the latest available version
-version="4.2"
+version="5.2"
 #version=`wget -q -O - https://www.displaylink.com/downloads/ubuntu | grep "download-version" | head -n 1 | perl -pe '($_)=/([0-9]+([.][0-9]+)+)/'`
 # define download url to be the correct version
-dlurl="https://www.displaylink.com/downloads/file?id=1123"
+dlurl="https://www.displaylink.com/downloads/file?id=1369"
 #dlurl="https://www.displaylink.com/"`wget -q -O - https://www.displaylink.com/downloads/ubuntu | grep "download-link" | head -n 1 | perl -pe '($_)=/<a href="\/([^"]+)"[^>]+class="download-link"/'`
 driver_dir=$version
 
